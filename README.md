@@ -25,10 +25,14 @@ Before running the tests make sure you are serving the app via `ng serve`.
 
 ## Commit changes
 
-This project is using commitizen, in order to easily detect every commit messages. To install
+This project is using [commitizen](http://commitizen.github.io/cz-cli/), in order to easily detect every commit message.
+
 `npm install -g commitizen`
+
 and
+
 `npm install -g cz-conventional-changelog`
+
 Just use now `git cz` instead of `git commit`
 
 ## Further help
