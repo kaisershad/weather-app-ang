@@ -23,6 +23,14 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 Before running the tests make sure you are serving the app via `ng serve`.
 
+## Commit changes
+
+This project is using commitizen, in order to easily detect every commit messages. To install
+`npm install -g commitizen`
+and
+`npm install -g cz-conventional-changelog`
+Just use now `git cz` instead of `git commit`
+
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
